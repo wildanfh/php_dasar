@@ -1,5 +1,5 @@
 <?php 
-require 'video_11/functions.php';
+require 'video_12/functions.php';
 $books = query("SELECT * FROM buku");
 ?>
 
@@ -14,6 +14,7 @@ $books = query("SELECT * FROM buku");
 </head>
 <body>
   <h2>Daftar Buku Tere Liye Bumi Series</h2>
+  <a href="video_12/tambah.php">Tambah Data Buku</a>
   <div class="container">
   <table border="1" cellpadding="10" cellspacing="0">
     <tr class="judul-tabel">
@@ -35,7 +36,7 @@ $books = query("SELECT * FROM buku");
       <td class="angka"><?= $i; ?></td>
       <td>
         <a href="" class="ubah">Ubah</a>
-        <a href="" class="hapus">Hapus</a>
+        <a href="video_12/hapus.php?id=<?= $book["id"]; ?>" onclick="return confirm('yakin?');" class="hapus">Hapus</a>
       </td>
       <td><img src="img/<?= $book["gambar"]?>" class="img"></td>
       <td class="judul"><?= $book["judul"]; ?></td>

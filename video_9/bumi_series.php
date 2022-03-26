@@ -50,11 +50,36 @@ $buku = array(
     "gambar" => "img/kometminor.jpg",
   ],
   [
+    "judul" => "Selena",
+    "isbn" => "978-602-063-951-2",
+    "terbit" => "Maret 2020",
+    "halaman" => "368 halaman",
+    "gambar" => "img/selena.jpg",
+  ],
+  // Selena
+  // 978-602-063-951-2
+  // Maret 2020
+  // 368 halaman
+  // img/selena.jpg
+
+// Lumpu
+// 978-602-065-228-3
+// April 2021
+// 368 halaman
+// img/lumpu.jpg
+  [
     "judul" => "Nebula",
     "isbn" => "978-602-063-953-6",
     "terbit" => "Maret 2020",
     "halaman" => "376 halaman",
     "gambar" => "img/nebula.jpg",
+  ],
+  [
+    "judul" => "Lumpu",
+    "isbn" => "978-602-065-228-3",
+    "terbit" => "April 2021",
+    "halaman" => "368 halaman",
+    "gambar" => "img/lumpu.jpg",
   ],
   [
     "judul" => "Si Putih",
