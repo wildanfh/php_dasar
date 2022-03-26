@@ -14,7 +14,7 @@ $books = query("SELECT * FROM buku");
 </head>
 <body>
   <h2>Daftar Buku Tere Liye Bumi Series</h2>
-  <a href="video_12/tambah.php">Tambah Data Buku</a>
+  <a href="video_12/tambah.php" class="tambah">Tambah Data Buku</a>
   <div class="container">
   <table border="1" cellpadding="10" cellspacing="0">
     <tr class="judul-tabel">

@@ -15,18 +15,21 @@
 
 h2 {
   font-family: mont;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
   text-align: center;
   margin: 20px;
 }
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
   border-collapse: collapse;
   border: none;
   /* border: 2px solid #333; */
   text-align: center;
   padding: 5px 15px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 table {
@@ -59,12 +62,13 @@ th {
   background-color: rgb(192, 203, 238);
 }
 
-.ubah, .hapus {
+.ubah,
+.hapus {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 2px;
   font-weight: 500;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .ubah {
@@ -79,7 +83,8 @@ th {
   color: rgb(255, 87, 87);
 }
 
-.ubah:hover, .hapus:hover {
+.ubah:hover,
+.hapus:hover {
   color: #ededed;
 }
 
@@ -88,11 +93,11 @@ th {
 }
 
 .hapus:hover {
-  background-color: rgb(255, 87, 87); 
+  background-color: rgb(255, 87, 87);
 }
 
-
-.angka, .judul {
+.angka,
+.judul {
   font-weight: 700;
 }
 
@@ -100,4 +105,11 @@ th {
   width: 90px;
   border-radius: 3px;
   object-fit: cover;
+}
+
+.tambah {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #333;
+  background-color: rgb(138, 228, 138);
 }
