@@ -4,6 +4,10 @@
   font-family: pt;
 }
 
+body {
+  background-color: #373737;
+}
+
 @font-face {
   font-family: mont;
   src: url(../font/Montserrat-Bold.ttf);
