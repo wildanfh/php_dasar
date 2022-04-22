@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: pt;
+}
+
+@font-face {
+  font-family: mont;
+  src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: pt;
+  src: url(../font/PTSans.ttf);
+}
+
+h2 {
+  font-family: mont;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin: 20px;
+}
+
+table,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  border: none;
+  /* border: 2px solid #333; */
+  text-align: center;
+  padding: 5px 15px;
+  transition: 0.2s;
+}
+
+table {
+  margin: 0 auto;
+  box-shadow: 3px 2px 3px -1px rgba(0, 0, 0, 0.445);
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.gray:hover {
+  background-color: rgb(192, 203, 238);
+  filter: sepia(20%);
+}
+
+th {
+  padding: 10px 15px;
+}
+
+.judul-tabel {
+  background-color: #333;
+}
+
+.judul-tabel > * {
+  color: #ededed;
+}
+
+.gray {
+  background-color: rgb(192, 203, 238);
+}
+
+.ubah,
+.hapus {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.ubah {
+  color: rgb(72, 115, 255);
+  background-color: transparent;
+  border: 2px solid rgb(72, 115, 255);
+}
+
+.hapus {
+  background-color: transparent;
+  border: 2px solid rgb(255, 87, 87);
+  color: rgb(255, 87, 87);
+}
+
+.ubah:hover,
+.hapus:hover {
+  color: #ededed;
+}
+
+.ubah:hover {
+  background-color: rgb(72, 115, 255);
+}
+
+.hapus:hover {
+  background-color: rgb(255, 87, 87);
+}
+
+.angka,
+.judul {
+  font-weight: 700;
+}
+
+.img {
+  width: 90px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.tambah {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #333;
+  background-color: rgb(138, 228, 138);
+  text-align: center;
+  margin: 15px auto;
+  display: block;
+  width: 140px;
+  border-radius: 3px;
+}
+
+
+.keyword {
+  padding: 5px 10px;
+}
+
+.cari {
+  padding: 5px 10px;
+}
